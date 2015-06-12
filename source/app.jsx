@@ -6,7 +6,7 @@ var
 module.exports = React.createClass({
   render: function(){
     return (
-      <h1>Insert Tic Tac Toe here.</h1>
+      <h1 className={"sample"}>Insert Tic Tac Toe here.</h1>
     );
   }
 });
