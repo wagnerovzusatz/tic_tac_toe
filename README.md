@@ -33,10 +33,9 @@ Setup
 Run, test, build
 ----------------
 
-* Build to ./release: `npm run-script webpack`
+* Start dev server: `npm start`, then open `http://localhost:8080/webpack-dev-server/`
 * Run tests: `npm test`, then open `http://localhost:8080/webpack-dev-server/test`
-* Start dev server: `TODO`
-
+* (Build release version to ./release: `npm run-script webpack`)
 
 Technologies used
 -----------------
