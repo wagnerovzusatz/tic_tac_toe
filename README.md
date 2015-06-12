@@ -31,5 +31,6 @@ TODO
 Technologies used
 -----------------
 
+* [Webpack](https://github.com/webpack/webpack) for asset bundling
 * [React](https://facebook.github.io/react/) for web components
 * [Sass](http://sass-lang.com/) for CSS preprocessing
