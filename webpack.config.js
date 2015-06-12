@@ -9,7 +9,7 @@ module.exports = {
   },
   module: {
     loaders: [
-      { test: /\.css$/, loader: "style!css" },
+      { test: /\.sass$/, loader: "style!css!sass?indentedSyntax" },
       { test: /\.html/, loader: 'file?name=[name].[ext]' }
     ]
   },
