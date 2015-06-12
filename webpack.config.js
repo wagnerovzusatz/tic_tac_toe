@@ -10,13 +10,15 @@ module.exports = {
   module: {
     loaders: [
       { test: /\.sass$/, loader: "style!css!sass?indentedSyntax" },
-      { test: /\.html/, loader: 'file?name=[name].[ext]' }
+      { test: /\.html/, loader: 'file?name=[name].[ext]' },
+      { test: /\.jsx/, loader: 'jsx-loader?harmony' }
     ]
   },
   resolve: {
     modulesDirectories: [
       "source",
       "test"
-    ]
+    ],
+    extensions: ['', '.js', '.json', '.jsx', '.min.js']
   }
 };
