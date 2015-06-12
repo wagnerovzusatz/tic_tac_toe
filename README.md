@@ -20,7 +20,6 @@ Environment
 
 * [NodeJS](https://nodejs.org)
 
-
 Setup
 -----
 
@@ -33,8 +32,9 @@ Setup
 Run, test, build
 ----------------
 
-* Start dev server: `npm start`, then open `http://localhost:8080/webpack-dev-server/`
-* Run tests: `npm test`, then open `http://localhost:8080/webpack-dev-server/test`
+* Start dev server: `npm start`
+* To run the application open `http://localhost:8080/webpack-dev-server/`
+* To run tests open `http://localhost:8080/webpack-dev-server/test`
 * (Build release version to ./release: `npm run-script webpack`)
 
 Technologies used

@@ -1,11 +1,14 @@
-var 
+var
   path = require("path");
 
 module.exports = {
-  entry: "entry.js",
+  entry: {
+    bundle: "entry.js",
+    test: "mocha!test.js"
+  },
   output: {
     path: path.join(__dirname, "release"),
-    filename: "bundle.js"
+    filename: "[name].js"
   },
   module: {
     loaders: [
@@ -16,10 +19,10 @@ module.exports = {
   },
   resolve: {
     modulesDirectories: [
-      "node_modules",
-      "source",
-      "test"
+      "node_modules", "source", "test"
     ],
-    extensions: ['', '.js', '.json', '.jsx', '.min.js']
+    extensions: [
+      "", ".js", ".json", ".jsx", ".min.js"
+    ]
   }
 };
