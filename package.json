@@ -4,8 +4,9 @@
   "description": "Browser based Tic Tac Toe",
   "main": "index.js",
   "scripts": {
+    "start": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js --progress --colors",
     "webpack": "./node_modules/webpack/bin/webpack.js",
-    "test": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js  'mocha!./test/entry.js' --output-file=test.js"
+    "test": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js 'mocha!./test/test.js' --output-file=test.js"
   },
   "repository": {
     "type": "git",
