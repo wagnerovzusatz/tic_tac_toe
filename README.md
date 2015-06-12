@@ -18,7 +18,7 @@ TODO
 Environment
 -----------
 
-`node` (latest)
+* [NodeJS](https://nodejs.org)
 
 
 Setup
