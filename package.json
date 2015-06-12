@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/neopoly/tic_tac_toe/issues"
   },
-  "homepage": "https://github.com/neopoly/tic_tac_toe"
+  "homepage": "https://github.com/neopoly/tic_tac_toe",
+  "devDependencies": {
+    "node-libs-browser": "^0.5.2",
+    "webpack": "^1.9.10"
+  }
 }
