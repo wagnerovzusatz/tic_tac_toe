@@ -4,6 +4,7 @@
   "description": "Browser based Tic Tac Toe",
   "main": "index.js",
   "scripts": {
+    "webpack": "./node_modules/webpack/bin/webpack.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/neopoly/tic_tac_toe",
   "devDependencies": {
+    "file-loader": "^0.8.4",
     "node-libs-browser": "^0.5.2",
     "webpack": "^1.9.10"
   }
