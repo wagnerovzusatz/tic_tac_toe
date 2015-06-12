@@ -1,0 +1,19 @@
+{
+  "name": "tic_tac_toe",
+  "version": "1.0.0",
+  "description": "Browser based Tic Tac Toe",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/neopoly/tic_tac_toe.git"
+  },
+  "author": "Neopoly GmbH",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/neopoly/tic_tac_toe/issues"
+  },
+  "homepage": "https://github.com/neopoly/tic_tac_toe"
+}
