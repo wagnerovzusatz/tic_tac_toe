@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "webpack": "./node_modules/webpack/bin/webpack.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/webpack-dev-server/bin/webpack-dev-server.js  'mocha!./test/entry.js' --output-file=test.js"
   },
   "repository": {
     "type": "git",
@@ -28,7 +28,8 @@
     "node-sass": "^3.2.0",
     "sass-loader": "^1.0.2",
     "style-loader": "^0.12.3",
-    "webpack": "^1.9.10"
+    "webpack": "^1.9.10",
+    "webpack-dev-server": "^1.9.0"
   },
   "dependencies": {
     "react": "^0.13.3"
