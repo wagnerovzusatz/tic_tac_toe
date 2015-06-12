@@ -30,6 +30,14 @@ Setup
   * `npm install`
 
 
+Run, test, build
+----------------
+
+* Build to ./release: `npm run-script webpack`
+* Run tests: `TODO`
+* Start dev server: `TODO`
+
+
 Technologies used
 -----------------
 
