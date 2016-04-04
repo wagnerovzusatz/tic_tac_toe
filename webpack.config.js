@@ -1,9 +1,10 @@
 var
-  path = require("path");
+  path = require("path"),
+  webpack = require("webpack");
 
 module.exports = {
   entry: {
-    bundle: "entry.js",
+    bundle: "entry.jsx",
     test: "mocha!test.js"
   },
   output: {
@@ -14,7 +15,7 @@ module.exports = {
     loaders: [
       { test: /\.sass$/, loader: "style!css!sass?indentedSyntax" },
       { test: /\.html/, loader: 'file?name=[name].[ext]' },
-      { test: /\.jsx$/, exclude: /node_modules/, loader: 'babel-loader' }
+      { test: /\.jsx?$/, exclude: /node_modules/, loader: 'babel-loader' }
     ]
   },
   resolve: {
