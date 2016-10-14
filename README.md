@@ -17,6 +17,8 @@ Target design
 
 ![Design 2](https://cdn.rawgit.com/neopoly/tic_tac_toe/master/doc/design-2.png)
 
+![Design 3](https://cdn.rawgit.com/neopoly/tic_tac_toe/master/doc/design-3.png)
+
 Environment
 -----------
 
