@@ -13,11 +13,11 @@ Gameplay
 Target design
 -------------
 
-![Design 1](https://cdn.rawgit.com/neopoly/tic_tac_toe/master/doc/design-1.png)
+![Design 1](https://cdn.rawgit.com/neopoly/tic_tac_toe/master/doc/design-1.png?v=2)
 
-![Design 2](https://cdn.rawgit.com/neopoly/tic_tac_toe/master/doc/design-2.png)
+![Design 2](https://cdn.rawgit.com/neopoly/tic_tac_toe/master/doc/design-2.png?v=2)
 
-![Design 3](https://cdn.rawgit.com/neopoly/tic_tac_toe/master/doc/design-3.png)
+![Design 3](https://cdn.rawgit.com/neopoly/tic_tac_toe/master/doc/design-3.png?v=2)
 
 Environment
 -----------
