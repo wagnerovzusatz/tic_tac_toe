@@ -1,1 +1,1 @@
-require("app_test");
+require("app_test")

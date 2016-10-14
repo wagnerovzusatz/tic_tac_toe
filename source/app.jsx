@@ -1,12 +1,9 @@
-"use strict";
+import React, { Component } from "react";
 
-var
-  React = require("react");
-
-module.exports = React.createClass({
-  render: function(){
+export default class App extends Component {
+  render() {
     return (
       <h1 className={"sample"}>Insert Tic Tac Toe here.</h1>
-    );
+    )
   }
-});
+}
