@@ -13,7 +13,9 @@ Gameplay
 Target design
 -------------
 
-TODO
+![Design 1](https://raw.githubusercontent.com/neopoly/tic_tac_toe/doc/design-1.png)
+
+![Design 2](https://raw.githubusercontent.com/neopoly/tic_tac_toe/doc/design-2.png)
 
 Environment
 -----------
