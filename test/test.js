@@ -1,1 +1,1 @@
-require("app_test")
+require("../source/Game/_core/test")

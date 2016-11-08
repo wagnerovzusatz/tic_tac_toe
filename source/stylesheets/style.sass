@@ -1,4 +1,39 @@
-h1.sample
-  font-family: Arial
-  text-align: center
-  margin: 3em auto
+$font-stack:    Helvetica, sans-serif
+$primary-color: #333
+
+body
+  	font: 100% $font-stack
+  	background-color: #efefef
+  	color: $primary-color
+  	margin: 0
+    	padding: 0
+    	width: 100%
+    	height: 100%
+
+#game
+	margin: 0 auto
+	text-align: center
+	width: 300px
+	height: 500px
+
+.field
+	-webkit-box-shadow: inset 0px 0px 0px 1px
+	-moz-box-shadow: inset 0px 0px 0px 1px
+	box-shadow: inset 0px 0px 0px 1px
+	top: 50%
+	color: black
+    	width: 100%
+	float: left
+	width: 100px
+	height: 100px
+	background-color: #778899
+ 	
+.cell
+	vertical-align: middle
+	text-align: center
+	border: 3px solid black
+	background-color: yellow
+
+
+.hide
+ 	display: none
