@@ -1,5 +1,1 @@
 require("../source/Game/_core/test")
-require("../source/Game/Head/test")
-require("../source/Game/Board/_core/test")
-require("../source/Game/Board/Field/test")
-require("../source/Game/Action/test")
